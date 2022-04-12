@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Signika:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+#admin-nav{
+    margin-left: 20rem;
+}
+
+.user-display{
+    color: #68ABF3;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    position: relative;
+    margin-left: 35vw;
+
+}
+
+.container a{
+    color: #e3eeff;
+}
+.button-design{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 250px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.button-design-logout{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 150px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 30%;
+}
+
+.table-results{
+    border-radius: 4px;
+    text-align: center;
+    border-style: none;
+    background-color: #68ABF3;
+    width: 200px;
+    height:max-content;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    color: #e3eeff;
+    margin-left: 47px;
+}
+.table-contents{
+    margin-left: 20%;
+}
+.table-contents-students{
+    flex-direction: column;
+    display: table-cell;
+}
+
+.table-contents-courses{
+    flex-direction: column;
+    display: table-cell;
+}
+
+.table-contents-departments{
+    flex-direction: column;
+    display: table-cell;
+}
+
+.student-info-table{
+    position: relative;
+    flex-direction: column;
+    display: table-cell;
+}
+
+.studentInfo{
+    color:#2C363F;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.far{
+    color:#ff267e;
+    margin-top: 10%;
+    font-size: 8rem;
+}
+.courses-Info{
+    margin-left: 3rem;
+}
+.student-classes{
+    display: table-cell;
+}
+.user-content{
+    margin-left: 25vw;
+}
